@@ -2,7 +2,7 @@ import serial
 import time
 
 # 아까 확인한 장치명으로 수정하세요!
-ser = serial.Serial('/dev/ttyACM0', 9600)
+ser = serial.Serial('/dev/ttyUSB0', 9600)
 
 try:
     while True:
